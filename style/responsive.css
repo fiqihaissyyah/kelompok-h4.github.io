@@ -1,0 +1,33 @@
+/* Tata letak untuk Tablet */
+@media screen and (max-width: 1000px) {
+    .body{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-text {
+        width: 100%;
+    }
+
+    .body-img {
+        display: flex;
+        width: 100%;
+        justify-content: center;  
+    }
+
+    .body-img img {
+        width: 50%;
+    }
+
+    .services {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .service {
+        width: 45%;
+        height: 200px;
+        padding: 1.25rem 1.5rem;
+    }
+  }
