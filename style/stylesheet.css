@@ -18,6 +18,13 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /*Ini bagian Header */
 header {
   height: 65px;
@@ -55,11 +62,12 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  display: none;
+  padding: 10px 0;
 }
 
 /* Ini bagian Main */
@@ -319,6 +327,15 @@ button {
   padding: 20px 30px;
   border-radius: 10px;
   color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 0 7px black;
 }
+
+.sign:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
 
     
