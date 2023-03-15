@@ -131,6 +131,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
   }
 
   .body-text {
@@ -144,7 +145,8 @@
   }
 
   .body-img img {
-    width: 100%;
+    width: 500px;
+    position: relative;
   }
 
   
